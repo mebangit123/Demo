@@ -1,7 +1,8 @@
 #!/bin/bash -x
 num1=4
-num2=6
+num2=2
 
-add=$(($num1+$num2))
+div=$(($num1/$num2))
 
-echo $add
+echo $div
+
